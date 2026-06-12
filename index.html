@@ -70,9 +70,9 @@ section{
 
 .title{
     text-align:center;
-    font-size:4 rem;
+    font-size:3.5rem;
     color:teal;
-    margin-bottom:120px;
+    margin-bottom:100px;
     font-family: lucida cursive;
 }
 
@@ -101,24 +101,24 @@ section{
 
 /* Profile */
 .profile-container{
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding: 20px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:60px;
+    flex-wrap:wrap;
 
 }
 
 .profile-container img{
-    width: 180px;
-    height: 180px;
-    object-fit: cover;
-    border-radius: 50%;   /* makes it circle */
-    border: 5px solid #fff;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
-    margin-bottom: 20px;
+    width:320px;
+    height:320px;
+    border-radius:50%;
+    object-fit:cover;
+    border:6px;
+    box-shadow:0 15px 35px rgba(106,27,154,.3);
+    transition:.4s;
+    box-shadow:0 5px 20px teal ;
+}
 
 
 .profile-info{
@@ -137,7 +137,7 @@ section{
 .card-container{
     display:grid;
     grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-    gap:60px;
+    gap:40px;
     position: center;
 }
 .card img{
@@ -241,8 +241,8 @@ footer{
 <section id="profile">
     <h2 class="title">My Profile</h2>
 
-    <div class="Profile-container">
-        <img src="Profile.jpg" alt="profile Picture">
+    <div class="profile-container">
+        <img src="profile.jpg" alt="Profile Picture">
 
         <div class="profile-info">
             <h2>Hi! I'm Mickyjean Caliao</h2>
@@ -351,7 +351,7 @@ footer{
 
         <div class="card">
             <h3>Learning Management System</h3>
-            <img src="LMS.jpg" alt="LMS">
+            <img src="LMS.jpg" alt="Project">
             <p>
                 Developed a Learning Management System for
                 Quezon National High School.
@@ -420,3 +420,7 @@ footer{
 
 </body>
 </html>
+
+  
+
+
