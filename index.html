@@ -101,24 +101,24 @@ section{
 
 /* Profile */
 .profile-container{
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    gap:80px;
-    flex-wrap:wrap;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
 
 }
 
 .profile-container img{
-    width:320px;
-    height:320px;
-    border-radius:50%;
-    object-fit:cover;
-    border:6px;
-    box-shadow:0 15px 35px rgba(106,27,154,.3);
-    transition:.4s;
-    box-shadow:0 5px 20px teal ;
-}
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 50%;   /* makes it circle */
+    border: 5px solid #fff;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    margin-bottom: 20px;
 
 
 .profile-info{
